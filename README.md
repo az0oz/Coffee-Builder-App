@@ -1,4 +1,4 @@
-Coffee Builder App
+## Coffee Builder App
 A customized coffee builder application, the project allows users to dynamically add coffee ingredients or elements as desired, then the user can visually see ingredients being added on the page
 
 For the live demo: https://coffee-project-ed9dd.web.app/
