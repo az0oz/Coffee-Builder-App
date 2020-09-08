@@ -1,0 +1,55 @@
+.TypeControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TypeControl button {
+    display: block;
+    font: inherit;
+    padding: 8px;
+    margin: 0 5px;
+    width: 65px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+}
+
+.TypeControl button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.TypeControl button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.TypeControl .Less {  
+    background-color: #eacbb98e;
+    color: white;
+}
+
+.TypeControl .More {
+    background-color: #a27c58;
+    color: white;
+}
+
+.TypeControl .Less:hover, .BuildControl .Less:active {  
+    background-color: #eacbb98e;
+    color: white;
+}
+
+.TypeControl .More:hover,.BuildControl .More:active {
+    background-color: #a27c58;
+    color: white;
+}

@@ -1,0 +1,76 @@
+.Coffee {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    overflow: auto;
+ 
+}
+.Cup {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    background: white;
+    border: 4px solid rgb(82, 59, 47);
+    border-radius: 0 0 5rem 5rem;
+    overflow: auto;
+}
+
+.Content {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+}
+
+.Shot {
+    display: block;
+    box-sizing: border-box;
+    height: px;
+    width: 300px;
+    background: #87624F;
+    overflow: auto;
+}
+
+.Handle {
+    position: absolute;
+    height: 70px;
+    width: 50px;
+    background: transparent;
+    border-radius: 50% 30%;
+    z-index: -1;
+    margin-left: 320px;
+    margin-top: 50px;
+    border: 5px solid rgb(82, 59, 47);;
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Coffee {
+        width: 700px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Coffee {
+        width: 450px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Coffee {
+        width: 350px;
+        height: 200px;
+    }
+}
+@media (min-width: 300px) and (min-height: 400px) {
+    .Coffee {
+        width: 350px;
+        height: 260px;
+    }
+}

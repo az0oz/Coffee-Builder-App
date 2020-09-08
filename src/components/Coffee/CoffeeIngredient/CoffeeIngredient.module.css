@@ -1,0 +1,95 @@
+
+.Water{
+  display: block;
+  box-sizing: border-box;
+  height: 45px;
+  width: 300px;
+  background: rgb(179, 213, 243);
+  overflow: auto;
+}
+
+.Ice{
+    width: 2.6rem;
+    height: 2.6rem;
+    background: rgba(153, 205, 250, 0.863);
+    border-radius: 5px;
+    opacity: .7;
+    z-index: 3;
+    box-shadow: 2px 2px 20px 2px rgb(206, 219, 231);
+}
+
+.IceCube1{
+transform: rotate(25deg);
+position: absolute;
+bottom: 0.6rem;
+left: 4.0rem;
+}
+
+.IceCube2{
+transform: rotate(95deg);
+position: absolute;
+bottom: 0.4rem;
+left: 8.3rem;
+}
+
+.IceCube3{
+transform: rotate(-10deg);
+position: absolute;
+bottom: 0.4rem;
+left: 12.5rem;
+}
+
+.IceCube4{
+    transform: rotate(-10deg);
+    position: absolute;
+    bottom: 2.8rem;
+    left: 6.3rem;
+ }
+
+ .IceCube5{
+    transform: rotate(-10deg);
+    position: absolute;
+    bottom: 2.8rem;
+    left: 10.3rem;
+ }
+
+
+.Shot{
+  display: block;
+  box-sizing: border-box;
+  height: 45px;
+  width: 300px;
+  background: #5B4644;
+  overflow: auto;
+}
+
+
+.Foam{
+  display: block;
+  box-sizing: border-box;
+  height: 45px;
+  width: 300px;
+  background: linear-gradient(to bottom, rgba(244, 232, 218, 0.411) 20%,  #F4E8DA 80%);
+  overflow: auto;
+}
+
+.Milk{
+  display: block;
+  box-sizing: border-box;
+  height: 45px;
+  width: 300px;
+  background: #F4E8DA;
+  overflow: auto;
+}
+
+.Chocolate{
+  display: block;
+  box-sizing: border-box;
+  height: 20px;
+  width: 300px;
+  background: linear-gradient(to bottom, rgb(135, 98, 79) 20%, rgba(135, 98, 79, 0.842) 80%);
+
+  overflow: auto;
+}
+
+
