@@ -1,3 +1,8 @@
+Coffee Builder App
+A customized coffee builder application, the project allows users to dynamically add coffee ingredients or elements as desired, then the user can visually see ingredients being added on the page
+
+For the live demo: https://coffee-project-ed9dd.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
